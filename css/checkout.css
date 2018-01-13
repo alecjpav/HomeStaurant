@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Give+You+Glory);
+
+body {
+    background: rgba(252, 251, 249, 0.68);
+    font-size: 16px;
+    color: #4d4f56;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h3,
+h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #25282b;
+}
+
+a {
+    color: #f30;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ef3b0e
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1270px;
+    width: 94%;
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+    color: #fff;
+    background-color: #3f444e;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.custom-control-indicator {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 3px rgba(93, 92, 99, 0.05);
+    border: 1px solid rgba(116, 135, 150, 0.23);
+}
+
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #3f444e;;
+    box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #fff;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-indicator {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns="http: //www.w3.org/2000/svg" viewBox="0 0 8 8"%3E%3Cpath fill="%23fff" d="M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z"/%3E%3C/svg%3E")
+}
+
+.custom-control-input:active~.custom-control-indicator {
+    color: #fff;
+    background-color: #3f444e;
+}
+
+.custom-control-input:disabled~.custom-control-indicator {
+    cursor: not-allowed;
+    background-color: #eee
+}
+
+.custom-control-input:disabled~.custom-control-description {
+    color: #76767
+}
+
+.custom-control {
+    padding-left: 30px;
+}
+
+.form-control {
+    border: 1px solid #eaebeb;
+    border-radius: 2px;
+}
+
+.btn,
+.img-rounded {
+    border-radius: 2px
+}
+
+.btn {
+    transition: all .4s;
+}
+
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    border: 0;
+    z-index: 99;
+}
+
+.navbar {
+    background-image: url("../images/menu-bg.jpg");
+    padding: .95rem 1rem;
+    border-radius: 0;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-toggler {
+    background-image: none;
+    border-color: transparent;
+}
+
+@media (max-width: 62em) {
+    .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .navbar-nav .nav-item {
+        float: none;
+    }
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+}
+
+.navbar-toggler {
+    padding: 4px 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: 1px solid transparent;
+    color: #f30;
+    border-radius: 2px;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 22px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+}
+
+.breadcrumb ul li:before {
+    position: absolute;
+    left: -25px;
+    top: 0;
+    content: "/";
+}
+
+.breadcrumb ul li:first-child:before {
+    content: none;
+}
+
+.breadcrumb ul li a,
+.breadcrumb ul li {
+    color: #333366;
+}
+
+.breadcrumb ul,
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+@media (min-width:320px) and (max-width: 568px) {
+    .breadcrumb ul li {
+        display: inline-block;
+        margin-right: 15px;
+        position: relative;
+    }
+    .breadcrumb ul li:before {
+        display: none
+    }
+}
+
+.widget {
+    border: 1px solid #eaebeb;
+    background: #fafaf8;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.widget-heading {
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px;
+    border-bottom: 1px solid #eaebeb;
+}
+
+.widget-heading .widget-title {
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.widget {
+    border: 1px solid #eaebeb;
+    background: #fafaf8;
+    border-radius: 2px;
+    position: relative;
+}
+
+.widget-body {
+    padding: 20px;
+}

@@ -1,0 +1,559 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Give+You+Glory);
+
+body {
+    background: rgba(252, 251, 249, 0.68);
+    font-size: 16px;
+    color: #4d4f56;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h3,
+h5,
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #25282b;
+}
+
+a {
+    color: #f30;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ef3b0e
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1270px;
+    width: 94%;
+}
+
+
+.page-wrapper {
+    padding-top: 68px;
+}
+
+
+.custom-control-input:checked~.custom-control-indicator {
+    color: #fff;
+    background-color: #3f444e;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.custom-checkbox .custom-control-indicator {
+    border-radius: 100%;
+}
+
+.custom-control-indicator {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 3px rgba(93, 92, 99, 0.05);
+    border: 1px solid rgba(116, 135, 150, 0.23);
+}
+
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #3f444e;;
+    box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #fff;
+}
+
+.custom-control-input:active~.custom-control-indicator {
+    color: #fff;
+    background-color: #3f444e;
+}
+
+.custom-control-input:disabled~.custom-control-indicator {
+    cursor: not-allowed;
+    background-color: #eee
+}
+
+.custom-control-input:disabled~.custom-control-description {
+    color: #76767
+}
+
+.custom-control {
+    padding-left: 30px;
+}
+
+.form-control {
+    border: 1px solid #eaebeb;
+    border-radius: 2px;
+}
+
+.custom-select {
+    line-height: 1
+}
+
+.btn,
+.img-rounded {
+    border-radius: 2px
+}
+
+.btn {
+    transition: all .4s;
+}
+
+.btn-secondary {
+    color: #373a3c;
+    background-color: rgba(252, 251, 249, 0.68);
+    border-color: #eaebeb;
+}
+
+.theme-btn-dash {
+    border: 2px inset #3f444e;
+    background-color: transparent;
+    color: #3f444e;
+}
+
+.theme-btn-dash:hover,
+.btn-secondary:hover {
+    background-color: #3f444e;
+    color: #fff;
+    border: 1px solid white;
+}
+
+.theme-btn-dash:hover {
+    border: 2px solid #3f444e;
+    color: #fff
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.primary-color {
+    color: #f30
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    border: 0;
+    z-index: 99;
+}
+
+.navbar {
+    background-image: url("../images/menu-bg.jpg");
+    padding: .95rem 1rem;
+    border-radius: 0;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-toggler {
+    background-image: none;
+    border-color: transparent;
+}
+
+@media (max-width: 62em) {
+    .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .navbar-nav .nav-item {
+        float: none;
+    }
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+}
+
+.navbar-toggler {
+    padding: 4px 0;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: 1px solid transparent;
+    color: #f30;
+    border-radius: 2px;
+}
+
+
+.inner-page-hero {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.result-show {
+    padding: 7px 0 10px;
+    border-bottom: 1px solid #eaebeb;
+    color: #333366;
+    margin-bottom: 20px;
+}
+
+.result-show p {
+    padding: 0;
+    margin: 5px 0;
+}
+
+.sidebar {
+    border: 1px solid #eaebeb;
+    background: #fafaf8;
+    border-radius: 3px;
+}
+
+.sidebar .input-group-btn .btn {
+    height: 55px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.widget {
+    border: 1px solid #eaebeb;
+    background: #fafaf8;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.widget-heading {
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px;
+    border-bottom: 1px solid #eaebeb;
+}
+
+.widget-heading .widget-title {
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.sidebar-title {
+    padding: 15px 15px 15px;
+    background: #3f444e;
+    float: left;
+    width: 100%;
+}
+
+.sidebar-title h6 {
+    float: left;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.sidebar-title i {
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.main-block ul li {
+    line-height: 28px;
+    font-weight: 300;
+    display: block;
+    border-bottom: 1px solid #eaebeb;
+    font-weight: 500;
+    color: #414551;
+}
+
+.main-block ul {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.main-block ul li:hover {
+    background: #fffdfd;
+}
+
+.main-block ul:hover li:last-child {
+    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid #eaebeb;
+}
+
+.main-block ul li:first-of-type {
+    border-top: none
+}
+
+.main-block form ul li {
+    padding: 15px
+}
+
+.main-block .input-group input,
+.main-block .input-group-btn {
+    height: 55px;
+    border-left: none
+}
+
+
+.widget {
+    border: 1px solid #eaebeb;
+    background: #fafaf8;
+    border-radius: 2px;
+    position: relative;
+}
+
+.widget-body {
+    padding: 20px;
+}
+
+.chef-entry {
+    border: 1px solid #eaebeb;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.chef-entry .entry-logo {
+    float: left;
+    width: 110px;
+    height: auto;
+    border: 1px solid #eaebeb;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow: hidden
+}
+
+.chef-entry .entry-logo img {
+    max-width: 100%;
+    display: block
+}
+
+.chef-entry .entry-dscr {
+    padding-left: 145px;
+    margin-top: 15px;
+}
+
+.chef-entry .entry-dscr h5 a {
+    color: #414551;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.chef-entry .entry-dscr ul li {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.chef-entry .right-review {
+    padding: 15px 10px;
+    border-left: 1px solid #eaebeb;
+    min-height: 145px;
+}
+
+.chef-entry .right-review p {
+    color: #414551;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.chef-entry .right-review .rating-block {
+    color: #f30;
+    background: transparent;
+    border: none;
+    padding: 5px 15px 5px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .chef-entry .entry-logo {
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .chef-entry .entry-dscr {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .chef-entry .right-review {
+        padding: 15px 10px;
+        border-left: transparent;
+        border-top: 1px solid #eaebeb
+    }
+}
+
+
+.tags {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.tags li {
+    float: left
+}
+
+.tag {
+    font-size: 14px;
+    line-height: 26px;
+    position: relative;
+    height: 28px;
+    margin: 0 10px 10px 0;
+    padding: 0 20px 0 15px;
+    -webkit-transition: all .4s;
+    border: 1px solid #eaebeb;
+    border-radius: 2px;
+    background: #ffffff;
+    color: inherit;
+    font-weight: normal
+}
+
+.tag:after,
+.tag:before {
+    -webkit-transition: all .4s;
+    background: #fff
+}
+
+.tag:before {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+}
+
+.tag:after {
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent
+}
+
+.tag:hover {
+    color: #fff;
+    border-color: #3f444e;
+    background-color: #3f444e;
+}
+
+/*! =========================================================
+* bootstrap-slider.js
+*
+* Maintainers:
+*		Kyle Kemp
+*			- Twitter: @seiyria
+*			- Github:  seiyria
+*		Rohit Kalkur
+*			- Twitter: @Rovolutionary
+*			- Github:  rovolution
+*
+* =========================================================
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+* ========================================================= */
+
+.slider {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.slider.slider-horizontal {
+    width: 100%;
+    height: 20px;
+}
+
+.slider.slider-horizontal .slider-track {
+    height: 10px;
+    width: 100%;
+    margin-top: -3px;
+    top: 50%;
+    left: 0;
+}
+
+.slider.slider-horizontal .slider-selection,
+.slider.slider-horizontal .slider-track-low,
+.slider.slider-horizontal .slider-track-high {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.slider.slider-horizontal .slider-handle {
+    margin-left: -12px;
+}
+
+.slider .tooltip.top {
+    margin-top: -36px;
+}
+
+.slider .tooltip-inner {
+    white-space: nowrap;
+    max-width: none;
+}
+
+.slider .hide {
+    display: none;
+}
+
+.slider-track {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #f0eff1;
+}
+
+.slider-selection {
+    position: absolute;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #3f444e;
+}
+
+.slider-track-low,
+.slider-track-high {
+    position: absolute;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.slider-handle {
+    position: absolute;
+    top: 0;
+    width: 23px;
+    height: 23px;
+    background-color: #ffffff;
+    filter: none;
+    box-shadow: 0 0 3px 3px rgba(93, 92, 99, 0.05);
+    border: 1px solid #ededed;
+}
+
+.slider-handle.round {
+    border-radius: 50%;
+}
+
+#ex2SliderVal {
+    font-weight: 600;
+    padding: 0 5px;
+    color: #3a3e47;
+}
+
